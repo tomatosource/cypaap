@@ -1,5 +1,5 @@
 year = new Date().getFullYear();
-startOfYear = new Date(year, 0, 0);
+startOfYear = new Date(year, 0, 1);
 daysInYear = (
   (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)
 ) ? 366 : 365;
